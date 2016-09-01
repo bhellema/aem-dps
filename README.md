@@ -1,5 +1,5 @@
 # aem-dps
-Adobe Experience Manager Endpoints for DPS
+Adobe Experience Manager Endpoints for Adobe On Demand Services
 
 #### Creating a Collection 
 curl -u admin:admin -d ":operation=dpsapps:createCollection&dps-title=myTitle&collectionName=myCollection&dps-layout=&template=/libs/mobileapps/dps/templates/collection/default" http://\<server-ip\>:4502/content.html/<path-to-app>
