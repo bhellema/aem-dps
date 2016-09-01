@@ -2,7 +2,7 @@
 Adobe Experience Manager Endpoints for DPS
 
 #### Creating a Collection 
-curl -u admin:admin -d ":operation=dpsapps:createCollection&dps-title=myTitle&collectionName=myCollection&dps-layout=&template=/libs/mobileapps/dps/templates/collection/default" http://<server-ip>:4502/content.html/<path-to-app>
+curl -u admin:admin -d ":operation=dpsapps:createCollection&dps-title=myTitle&collectionName=myCollection&dps-layout=&template=/libs/mobileapps/dps/templates/collection/default" http://\<server-ip\>:4502/content.html/<path-to-app>
 
 Generates:
 ```
@@ -21,5 +21,5 @@ Generates:
 ```
 
 #### Uploading a Collection from AEM to Adobe On Demand Services
-curl -u admin:admin -d ":operation=dpsapps:dpsUpload&createIfMissing=true&includeContent=true" http://<server-ip>:4502/content/mobileapps/<app>/collections/myCollection
+curl -u admin:admin -d ":operation=dpsapps:dpsUpload&createIfMissing=true&includeContent=true" http://\<server-ip\>:4502/content/mobileapps/<app>/collections/myCollection
 
