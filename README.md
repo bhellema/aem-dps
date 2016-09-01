@@ -21,5 +21,5 @@ Generates:
 ```
 
 #### Uploading a Collection from AEM to Adobe On Demand Services
-curl -u admin:admin -d ":operation=dpsapps:dpsUpload&createIfMissing=true&includeContent=true" http://\<server-ip\>:4502/content/mobileapps/<app>/collections/myCollection
+curl -u admin:admin -d ":operation=dpsapps:dpsUpload&createIfMissing=true&includeContent=true" http://\<server-ip\>:4502/content/mobileapps/\<app\>/collections/myCollection
 
